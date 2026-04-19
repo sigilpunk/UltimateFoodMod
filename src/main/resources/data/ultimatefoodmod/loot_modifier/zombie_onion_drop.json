@@ -1,0 +1,25 @@
+{
+  "type": "neoforge:loot_additions",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "predicate": {
+        "type": "#minecraft:zombies"
+      },
+      "entity": "this"
+    }
+  ],
+  "additions": [
+    {
+      "type": "minecraft:item",
+      "name": "ultimatefoodmod:onion",
+      "weight": 1,
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

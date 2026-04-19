@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "entries": [
+    "ultimatefoodmod:loot_modifier/zombie_onion_drop",
+    "ultimatefoodmod:loot_modifier/onion_village_loot"
+  ]
+}
