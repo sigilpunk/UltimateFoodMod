@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "entries": [
+    "ufm:loot_modifier/zombie_onion_drop",
+    "ufm:loot_modifier/onion_village_loot",
+    "ufm:loot_modifier/zombie_red_onion_drop",
+    "ufm:loot_modifier/red_onion_village_loot"
+  ]
+}

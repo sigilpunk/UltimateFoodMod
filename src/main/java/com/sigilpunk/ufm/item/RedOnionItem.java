@@ -1,17 +1,16 @@
 package com.sigilpunk.ufm.item;
 
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.context.UseOnContext;
+import com.sigilpunk.ufm.registry.ModBlocks;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.FarmBlock;
-import net.minecraft.world.food.FoodProperties;
-import com.sigilpunk.ufm.registry.ModBlocks;
 
-public class OnionItem extends BlockItem {
-    public OnionItem(Item.Properties props) {
-        super(ModBlocks.ONION_CROP.get(), props.food(
+public class RedOnionItem extends BlockItem {
+    public RedOnionItem(Properties props) {
+        super(ModBlocks.RED_ONION_CROP.get(), props.food(
                 new FoodProperties.Builder()
                         .nutrition(2)
                         .saturationModifier(0.3f)
@@ -20,7 +19,7 @@ public class OnionItem extends BlockItem {
 
     @Override
     public String getDescriptionId() {
-        return "item.ufm.onion";
+        return "item.ufm.red_onion";
     }
 
     @Override

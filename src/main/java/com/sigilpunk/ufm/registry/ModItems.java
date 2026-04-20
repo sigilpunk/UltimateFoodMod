@@ -1,6 +1,6 @@
 package com.sigilpunk.ufm.registry;
 
-import com.sigilpunk.ufm.item.OnionItem;
+import com.sigilpunk.ufm.item.*;
 import com.sigilpunk.ufm.UltimateFoodMod;
 import net.minecraft.world.item.BlockItem;
 import net.neoforged.bus.api.IEventBus;
@@ -13,6 +13,8 @@ public class ModItems {
 
     public static final DeferredItem<BlockItem> ONION =
             ITEMS.registerItem("onion", OnionItem::new);
+    public static final DeferredItem<BlockItem> RED_ONION =
+            ITEMS.registerItem("red_onion", RedOnionItem::new);
 
     public static final DeferredItem<BlockItem> MJ_BLOCK_ITEM =
             ITEMS.registerSimpleBlockItem(ModBlocks.MJ_BLOCK);

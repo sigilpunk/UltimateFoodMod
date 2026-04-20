@@ -16,7 +16,7 @@ public class ModCreativeTabs {
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> UFM_TAB_BLOCKS =
             CREATIVE_MODE_TABS.register("ufm_tab_blocks", () -> CreativeModeTab.builder()
-                    .title(Component.translatable("itemGroup.ultimatefoodmod.blocks"))
+                    .title(Component.translatable("itemGroup.ufm.blocks"))
                     .withTabsBefore(CreativeModeTabs.COMBAT)
                     .icon(() -> ModItems.MJ_BLOCK_ITEM.get().getDefaultInstance())
                     .displayItems((parameters, output) -> {
@@ -25,11 +25,12 @@ public class ModCreativeTabs {
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> UFM_TAB_FOOD =
             CREATIVE_MODE_TABS.register("ufm_tab_food", () -> CreativeModeTab.builder()
-                    .title(Component.translatable("itemGroup.ultimatefoodmod.food"))
+                    .title(Component.translatable("itemGroup.ufm.food"))
                     .withTabsBefore(CreativeModeTabs.COMBAT)
                     .icon(() -> ModItems.ONION.get().getDefaultInstance())
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.ONION.get());
+                        output.accept(ModItems.RED_ONION.get());
                     }).build());
 
     public static void register(IEventBus bus) {

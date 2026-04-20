@@ -1,0 +1,16 @@
+{
+  "itemGroup.ufm.blocks": "Ultimate Food | Blocks",
+  "itemGroup.ufm.food": "Ultimate Food | Food",
+  "block.ufm.mjblock": "MJ Block",
+  "item.ufm.tomato": "Tomato",
+  "item.ufm.onion": "Onion",
+  "item.ufm.red_onion": "Red Onion",
+
+  "ufm.configuration.title": "UltimateFoodMod Configs",
+  "ufm.configuration.section.ufm.common.toml": "UltimateFoodMod Configs",
+  "ufm.configuration.section.ufm.common.toml.title": "UltimateFoodMod Configs",
+  "ufm.configuration.items": "Item List",
+  "ufm.configuration.logDirtBlock": "Log Dirt Block",
+  "ufm.configuration.magicNumberIntroduction": "Magic Number Text",
+  "ufm.configuration.magicNumber": "Magic Number"
+}

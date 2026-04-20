@@ -19,7 +19,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 @Mod(UltimateFoodMod.MODID)
 public class UltimateFoodMod {
 
-    public static final String MODID = "ultimatefoodmod";
+    public static final String MODID = "ufm";
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public UltimateFoodMod(IEventBus modEventBus, ModContainer modContainer) {
