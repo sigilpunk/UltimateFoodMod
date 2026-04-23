@@ -21,16 +21,30 @@ public class ModCreativeTabs {
                     .icon(() -> ModItems.MJ_BLOCK_ITEM.get().getDefaultInstance())
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.MJ_BLOCK_ITEM.get());
+                        output.accept(ModItems.LEMONWOOD_LOG_ITEM.get());
+                        output.accept(ModItems.LEMONWOOD_STRIPPED_LOG_ITEM.get());
+                        output.accept(ModItems.LEMONWOOD_WOOD_ITEM.get());
+                        output.accept(ModItems.LEMONWOOD_PLANKS_ITEM.get());
                     }).build());
 
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> UFM_TAB_FOOD =
-            CREATIVE_MODE_TABS.register("ufm_tab_food", () -> CreativeModeTab.builder()
-                    .title(Component.translatable("itemGroup.ufm.food"))
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> UFM_TAB_NATURE=
+            CREATIVE_MODE_TABS.register("ufm_tab_nature", () -> CreativeModeTab.builder()
+                    .title(Component.translatable("itemGroup.ufm.nature"))
+                    .withTabsBefore(CreativeModeTabs.COMBAT)
+                    .icon(() -> ModItems.LEMON_TREE_LEAVES_ITEM.get().getDefaultInstance())
+                    .displayItems((parameters, output) -> {
+                        output.accept(ModItems.LEMON_TREE_LEAVES_ITEM.get());
+                    }).build());
+
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> UFM_TAB_PRODUCE =
+            CREATIVE_MODE_TABS.register("ufm_tab_produce", () -> CreativeModeTab.builder()
+                    .title(Component.translatable("itemGroup.ufm.produce"))
                     .withTabsBefore(CreativeModeTabs.COMBAT)
                     .icon(() -> ModItems.ONION.get().getDefaultInstance())
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.ONION.get());
                         output.accept(ModItems.RED_ONION.get());
+                        output.accept(ModItems.LEMON.get());
                     }).build());
 
     public static void register(IEventBus bus) {

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "all": "ufm:block/lemon_tree_leaves"
+  }
+}

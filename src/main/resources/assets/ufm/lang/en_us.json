@@ -1,10 +1,19 @@
 {
-  "itemGroup.ufm.blocks": "Ultimate Food | Blocks",
-  "itemGroup.ufm.food": "Ultimate Food | Food",
+  "itemGroup.ufm.blocks": "UFM | Building Blocks",
+  "itemGroup.ufm.produce": "UFM | Produce",
+  "itemGroup.ufm.nature": "UFM | Natural Blocks",
+
   "block.ufm.mjblock": "MJ Block",
+  "block.ufm.lemonwood_wood": "Lemonwood Wood",
+  "block.ufm.lemonwood_stripped_log": "Lemonwood Stripped Log",
+  "block.ufm.lemonwood_log": "Lemonwood Log",
+  "block.ufm.lemon_tree_leaves": "Lemon Tree Leaves",
+  "block.ufm.lemonwood_planks": "Lemonwood Planks",
+
   "item.ufm.tomato": "Tomato",
   "item.ufm.onion": "Onion",
   "item.ufm.red_onion": "Red Onion",
+  "item.ufm.lemon": "Lemon",
 
   "ufm.configuration.title": "UltimateFoodMod Configs",
   "ufm.configuration.section.ufm.common.toml": "UltimateFoodMod Configs",
