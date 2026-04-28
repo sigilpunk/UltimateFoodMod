@@ -1,6 +1,0 @@
-{
-  "type": "minecraft:add_features",
-  "biomes": "#minecraft:is_overworld",
-  "features": "ufm:lemon_tree",
-  "generation_step": "vegetal_decoration"
-}

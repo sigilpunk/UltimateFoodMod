@@ -1,0 +1,45 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "ufm:block/lemon_tree_leaves",
+    "fruit": "ufm:block/lemon_fruit"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": { "texture": "#all", "tintindex": 0 },
+        "south": { "texture": "#all", "tintindex": 0 },
+        "east":  { "texture": "#all", "tintindex": 0 },
+        "west":  { "texture": "#all", "tintindex": 0 },
+        "up":    { "texture": "#all", "tintindex": 0 },
+        "down":  { "texture": "#all", "tintindex": 0 }
+      }
+    },
+    {
+      "from": [2, 3, 9],
+      "to": [5, 6, 12],
+      "faces": {
+        "north": { "texture": "#fruit" },
+        "south": { "texture": "#fruit" },
+        "east":  { "texture": "#fruit" },
+        "west":  { "texture": "#fruit" },
+        "up":    { "texture": "#fruit" },
+        "down":  { "texture": "#fruit" }
+      }
+    },
+    {
+      "from": [8, 8, 6],
+      "to": [11, 11, 9],
+      "faces": {
+        "north": { "texture": "#fruit" },
+        "south": { "texture": "#fruit" },
+        "east":  { "texture": "#fruit" },
+        "west":  { "texture": "#fruit" },
+        "up":    { "texture": "#fruit" },
+        "down":  { "texture": "#fruit" }
+      }
+    }
+  ]
+}

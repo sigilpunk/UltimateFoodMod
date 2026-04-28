@@ -20,13 +20,13 @@ public class ModItems {
             ITEMS.registerSimpleBlockItem(ModBlocks.MJ_BLOCK);
 
     public static final DeferredItem<Item> LEMON =
-            ITEMS.registerSimpleItem("lemon");
+            ITEMS.registerItem("lemon", LemonItem::new);
 
     public static final DeferredItem<BlockItem> LEMONWOOD_LOG_ITEM =
             ITEMS.registerSimpleBlockItem(ModBlocks.LEMONWOOD_LOG);
 
-    public static final DeferredItem<BlockItem> LEMONWOOD_STRIPPED_LOG_ITEM =
-            ITEMS.registerSimpleBlockItem(ModBlocks.LEMONWOOD_STRIPPED_LOG);
+    public static final DeferredItem<BlockItem> STRIPPED_LEMONWOOD_LOG_ITEM =
+            ITEMS.registerSimpleBlockItem(ModBlocks.STRIPPED_LEMONWOOD_LOG);
 
     public static final DeferredItem<BlockItem> LEMONWOOD_WOOD_ITEM =
             ITEMS.registerSimpleBlockItem(ModBlocks.LEMONWOOD_WOOD);

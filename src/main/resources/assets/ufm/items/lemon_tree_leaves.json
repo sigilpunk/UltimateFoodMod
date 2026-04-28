@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "ufm:block/lemon_tree_leaves"
+    "model": "ufm:item/lemon_tree_leaves"
   }
 }

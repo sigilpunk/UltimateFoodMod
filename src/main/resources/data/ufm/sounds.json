@@ -1,0 +1,12 @@
+{
+  "fruit_tree.pick_1": {
+    "sounds": [
+      "ufm:item/fruit_tree/pick_1"
+    ]
+  },
+  "fruit_tree.pick_2": {
+    "sounds": [
+      "ufm:item/fruit_tree/pick_2"
+    ]
+  }
+}

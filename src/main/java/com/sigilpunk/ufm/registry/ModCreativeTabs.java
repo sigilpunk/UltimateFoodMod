@@ -22,7 +22,7 @@ public class ModCreativeTabs {
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.MJ_BLOCK_ITEM.get());
                         output.accept(ModItems.LEMONWOOD_LOG_ITEM.get());
-                        output.accept(ModItems.LEMONWOOD_STRIPPED_LOG_ITEM.get());
+                        output.accept(ModItems.STRIPPED_LEMONWOOD_LOG_ITEM.get());
                         output.accept(ModItems.LEMONWOOD_WOOD_ITEM.get());
                         output.accept(ModItems.LEMONWOOD_PLANKS_ITEM.get());
                     }).build());

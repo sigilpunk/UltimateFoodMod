@@ -63,7 +63,7 @@ public class ModBlocks {
                     .instrument(NoteBlockInstrument.BASS)
                     .strength(2f)));
 
-    public static final DeferredBlock<Block> LEMONWOOD_STRIPPED_LOG = BLOCKS.register("lemonwood_stripped_log",
+    public static final DeferredBlock<Block> STRIPPED_LEMONWOOD_LOG = BLOCKS.register("stripped_lemonwood_log",
             () -> new LemonwoodLogBlock(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.COLOR_YELLOW)
                     .instrument(NoteBlockInstrument.BASS)
@@ -83,9 +83,9 @@ public class ModBlocks {
                             .strength(2.0f)
                             .sound(SoundType.WOOD));
 
-    public static final DeferredBlock<BaseFruitLeavesBlock> LEMON_TREE_LEAVES =
+    public static final DeferredBlock<LemonTreeLeavesBlock> LEMON_TREE_LEAVES =
             BLOCKS.registerBlock("lemon_tree_leaves",
-                    props -> new BaseFruitLeavesBlock(props, ModItems.LEMON),
+                    props -> new LemonTreeLeavesBlock(props),
                     BlockBehaviour.Properties.of()
                             .strength(0.2f)
                             .randomTicks()

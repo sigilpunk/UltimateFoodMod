@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "ufm:block/lemonwood_stripped_log"
+    "model": "ufm:block/stripped_lemonwood_log"
   }
 }

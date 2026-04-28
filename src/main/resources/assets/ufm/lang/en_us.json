@@ -4,11 +4,14 @@
   "itemGroup.ufm.nature": "UFM | Natural Blocks",
 
   "block.ufm.mjblock": "MJ Block",
+
   "block.ufm.lemonwood_wood": "Lemonwood Wood",
-  "block.ufm.lemonwood_stripped_log": "Lemonwood Stripped Log",
+
   "block.ufm.lemonwood_log": "Lemonwood Log",
-  "block.ufm.lemon_tree_leaves": "Lemon Tree Leaves",
+  "block.ufm.stripped_lemonwood_log": "Stripped Lemonwood Log",
   "block.ufm.lemonwood_planks": "Lemonwood Planks",
+  "block.ufm.lemon_tree_leaves": "Lemon Tree Leaves",
+
 
   "item.ufm.tomato": "Tomato",
   "item.ufm.onion": "Onion",

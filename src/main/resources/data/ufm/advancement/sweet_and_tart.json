@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "ufm:lemon"
+    },
+    "title": "Sweet And Tart",
+    "description": "Harvest a citrus plant",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "pick_citrus": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "block": {
+          "blocks": [
+            "ufm:lemon_tree_leaves"
+          ]
+        }
+      }
+    }
+  }
+}
